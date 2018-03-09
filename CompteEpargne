@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication9
+{
+    class CompteEpargne : Compte
+    {
+        private double tauxinteret = 6;
+
+        public void calculinteret()
+        {
+            Solde = Solde + (Solde * 0.06);
+        } 
+
+
+    }
+}
